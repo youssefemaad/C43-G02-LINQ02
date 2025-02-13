@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Youssef\\Projects\\Routes_Course\\LinQ\\Ass_2\\C43-G02-LINQ02\\Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF357796-6E0D-4811-8293-E146DD73CCB2}|Demo\\Demo.csproj|d:\\youssef\\projects\\routes_course\\linq\\ass_2\\c43-g02-linq02\\demo\\demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF357796-6E0D-4811-8293-E146DD73CCB2}|Demo\\Demo.csproj|solutionrelative:demo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF357796-6E0D-4811-8293-E146DD73CCB2}|Demo\\Demo.csproj|d:\\youssef\\projects\\routes_course\\linq\\ass_2\\c43-g02-linq02\\demo\\demo\\listgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF357796-6E0D-4811-8293-E146DD73CCB2}|Demo\\Demo.csproj|solutionrelative:demo\\listgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF357796-6E0D-4811-8293-E146DD73CCB2}|Demo\\Demo.csproj|d:\\youssef\\projects\\routes_course\\linq\\ass_2\\c43-g02-linq02\\demo\\demo\\data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF357796-6E0D-4811-8293-E146DD73CCB2}|Demo\\Demo.csproj|solutionrelative:demo\\data\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF357796-6E0D-4811-8293-E146DD73CCB2}|Demo\\Demo.csproj|d:\\youssef\\projects\\routes_course\\linq\\ass_2\\c43-g02-linq02\\demo\\demo\\data\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF357796-6E0D-4811-8293-E146DD73CCB2}|Demo\\Demo.csproj|solutionrelative:demo\\data\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF357796-6E0D-4811-8293-E146DD73CCB2}|Demo\\Demo.csproj|d:\\youssef\\projects\\routes_course\\linq\\ass_2\\c43-g02-linq02\\demo\\demo\\data\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF357796-6E0D-4811-8293-E146DD73CCB2}|Demo\\Demo.csproj|solutionrelative:demo\\data\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListGenerator.cs",
+              "DocumentMoniker": "D:\\Youssef\\Projects\\Routes_Course\\LinQ\\Ass_2\\C43-G02-LINQ02\\Demo\\Demo\\ListGenerator.cs",
+              "RelativeDocumentMoniker": "Demo\\ListGenerator.cs",
+              "ToolTip": "D:\\Youssef\\Projects\\Routes_Course\\LinQ\\Ass_2\\C43-G02-LINQ02\\Demo\\Demo\\ListGenerator.cs",
+              "RelativeToolTip": "Demo\\ListGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T19:04:44.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Youssef\\Projects\\Routes_Course\\LinQ\\Ass_2\\C43-G02-LINQ02\\Demo\\Demo\\Data\\Product.cs",
+              "RelativeDocumentMoniker": "Demo\\Data\\Product.cs",
+              "ToolTip": "D:\\Youssef\\Projects\\Routes_Course\\LinQ\\Ass_2\\C43-G02-LINQ02\\Demo\\Demo\\Data\\Product.cs",
+              "RelativeToolTip": "Demo\\Data\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T19:04:06.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\Youssef\\Projects\\Routes_Course\\LinQ\\Ass_2\\C43-G02-LINQ02\\Demo\\Demo\\Data\\Order.cs",
+              "RelativeDocumentMoniker": "Demo\\Data\\Order.cs",
+              "ToolTip": "D:\\Youssef\\Projects\\Routes_Course\\LinQ\\Ass_2\\C43-G02-LINQ02\\Demo\\Demo\\Data\\Order.cs",
+              "RelativeToolTip": "Demo\\Data\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T19:04:00.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\Youssef\\Projects\\Routes_Course\\LinQ\\Ass_2\\C43-G02-LINQ02\\Demo\\Demo\\Data\\Customer.cs",
+              "RelativeDocumentMoniker": "Demo\\Data\\Customer.cs",
+              "ToolTip": "D:\\Youssef\\Projects\\Routes_Course\\LinQ\\Ass_2\\C43-G02-LINQ02\\Demo\\Demo\\Data\\Customer.cs",
+              "RelativeToolTip": "Demo\\Data\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T19:02:43.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Youssef\\Projects\\Routes_Course\\LinQ\\Ass_2\\C43-G02-LINQ02\\Demo\\Demo\\Program.cs",
+              "RelativeDocumentMoniker": "Demo\\Program.cs",
+              "ToolTip": "D:\\Youssef\\Projects\\Routes_Course\\LinQ\\Ass_2\\C43-G02-LINQ02\\Demo\\Demo\\Program.cs*",
+              "RelativeToolTip": "Demo\\Program.cs*",
+              "ViewState": "AgIAAOsAAAAAAAAAAAAIwP8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T19:02:13.408Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
