@@ -14,29 +14,29 @@ class Program
         List<int> Numbers = new List<int> { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
         #region What is var?
-        // var name = "LINQ";
-        // // var can be used to store any type of data, and the type is determined at compile time, and can't be changed later or assigned to null.
+        var name = "LINQ";
+        // var can be used to store any type of data, and the type is determined at compile time, and can't be changed later or assigned to null.
 
-        // // Employee employee = new Employee(Id = 1, Name = "John", Salary = 1000);
-        // // object Emp = new { Id = 1, Name = "John", Salary = 1000 };
-        // // Console.WriteLine(Emp.Id); //invalid
-        // var Emp01 = new { Id = 1, Name = "John", Salary = 1000 }; //AnonymousType0`3
-        // Console.WriteLine(Emp01.GetType().Name); //valid
-        // var Emp02 = new { Id = Emp01.Id, Name = Emp01.Name, Salary = 2000 };
-        // var Emp03 = Emp01 with { Salary = 3000 };
+        // Employee employee = new Employee(Id = 1, Name = "John", Salary = 1000);
+        // object Emp = new { Id = 1, Name = "John", Salary = 1000 };
+        // Console.WriteLine(Emp.Id); //invalid
+        var Emp01 = new { Id = 1, Name = "John", Salary = 1000 }; //AnonymousType0`3
+        Console.WriteLine(Emp01.GetType().Name); //valid
+        var Emp02 = new { Id = Emp01.Id, Name = Emp01.Name, Salary = 2000 };
+        var Emp03 = Emp01 with { Salary = 3000 };
 
-        // var Emp04 = new { id = 1, name = "John", salary = 1000 }; //AnonymousType1`3 change in name of properties change the AnonymousType
-        // var Emp05 = new { name = "omar", id = 20, salary = 2000 }; //AnonymousType2`3 change in order of properties change the AnonymousType
+        var Emp04 = new { id = 1, name = "John", salary = 1000 }; //AnonymousType1`3 change in name of properties change the AnonymousType
+        var Emp05 = new { name = "omar", id = 20, salary = 2000 }; //AnonymousType2`3 change in order of properties change the AnonymousType
         #endregion
 
         #region What is LINQ?
-        // LinQ => Language Integrated Query
-        // List<int> OddNum = Numbers.Where(num => num % 2 == 1).ToList();
+        LinQ => Language Integrated Query
+        List<int> OddNum = Numbers.Where(num => num % 2 == 1).ToList();
 
-        // foreach (var num in OddNum)
-        // {
-        //     Console.WriteLine(num);
-        // }
+        foreach (var num in OddNum)
+        {
+            Console.WriteLine(num);
+        }
 
         // Sequence => The Objects that implement IEnumerable<T> interface
         // Local -> Static ,XML [L2XML], Object, Database
@@ -50,20 +50,20 @@ class Program
 
         #region 1.Fluent Syntax
         //1.1 call "LinQ Operator" as Static Method
-        // var OddNum1 = Enumerable.Where(Numbers, num => num % 2 == 1);
-        // //1.2 call "LinQ Operator" as Extension Method
-        // OddNum1 = Numbers.Where(num => num % 2 == 1);
+        var OddNum1 = Enumerable.Where(Numbers, num => num % 2 == 1);
+        //1.2 call "LinQ Operator" as Extension Method
+        OddNum1 = Numbers.Where(num => num % 2 == 1);
         #endregion
 
         #region 2.Query Syntax
 
-        // var OddNum2 = from num in Numbers
-        //               where num % 2 == 1
-        //               select num;
+        var OddNum2 = from num in Numbers
+                      where num % 2 == 1
+                      select num;
 
-        // foreach (var num in OddNum2) {
-        //     Console.WriteLine(num);
-        // }
+        foreach (var num in OddNum2) {
+            Console.WriteLine(num);
+        }
 
         // Must start with From
         // Must end with Select or GroupBy
@@ -74,20 +74,20 @@ class Program
         #region Extension Ways
 
         #region Deferred Execution
-        // var OddNum3 = Numbers.Where(num => num % 2 == 1);// Deferred Execution
-        // var OddNum4 = Numbers.Where(num => num % 2 == 1).ToList(); //Immediate Execution
+        var OddNum3 = Numbers.Where(num => num % 2 == 1);// Deferred Execution
+        var OddNum4 = Numbers.Where(num => num % 2 == 1).ToList(); //Immediate Execution
 
-        // Numbers.AddRange(new int[] { 10, 11, 12, 13, 14, 15 });
+        Numbers.AddRange(new int[] { 10, 11, 12, 13, 14, 15 });
 
-        // foreach (var num in OddNum3)
-        // {
-        //     Console.WriteLine(num); // 1,3,5,7,9,11,13,15
-        // }
+        foreach (var num in OddNum3)
+        {
+            Console.WriteLine(num); // 1,3,5,7,9,11,13,15
+        }
 
-        // foreach (var num in OddNum4)
-        // {
-        //     Console.WriteLine(num); // 1,3,5,7,9
-        // }
+        foreach (var num in OddNum4)
+        {
+            Console.WriteLine(num); // 1,3,5,7,9
+        }
         #endregion
         #endregion
 
